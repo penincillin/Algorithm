@@ -13,4 +13,5 @@
 | lps           | Longest prefix string                             | 14    |
 | 3sum          | 3Sum                                              | 15    |
 | 3Sum_cloest   | 3Sum Cloest                                       | 16    |
+| lcpn          | Letter Combinations of a Phone Number             | 17    |
 | sqrt          | sqrt                                              | 69    |
