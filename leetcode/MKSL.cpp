@@ -1,3 +1,12 @@
+/* hard
+ * take out the first node of each list, use them to build a priority queue
+ * each time pop the smallest item in the queue, then take out the current first node to in the list which poped node belonged to
+ * add this node to the priority queue
+ * assmue there are N list, each list has k1,k2,...kn nodes, the complexity of this algorithm is O(log(N)*(k1+k2+...+kn))
+ * C++ has implementation of priority queue in stl
+ */
+
+
 #include <iostream>
 #include <vector>
 #include <queue>

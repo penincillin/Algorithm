@@ -18,5 +18,6 @@
 | VP            | Valid Parentheses                                 | 20    |
 | GP            | Generate Parentheses                              | 22    |
 | MKSL          | Merge K sorted list                               | 23    |
+| SNP           | Swap Nodes in Pairs                               | 24    |
 | sqrt          | sqrt                                              | 69    |
 
