@@ -1,3 +1,11 @@
+/* hard
+ * to be honest,this problem is not that hard
+ * as the title says, the list could be reversed by group
+ * just apply reverse linked list algorithm to each sub-list will solve the problem
+ */
+
+
+
 #include <iostream>
 #include <vector>
 #include <queue>

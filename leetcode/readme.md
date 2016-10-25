@@ -19,6 +19,7 @@
 | GP            | Generate Parentheses                              | 22    |
 | MKSL          | Merge K sorted list                               | 23    |
 | SNP           | Swap Nodes in Pairs                               | 24    |
+| rnkg          | Reverse Nodes in k-Group                          | 25    |
 | sqrt          | sqrt                                              | 69    |
 | SLL           | Reverse Linked List                               | 206   |
 
