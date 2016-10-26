@@ -20,6 +20,7 @@
 | MKSL          | Merge K sorted list                               | 23    |
 | SNP           | Swap Nodes in Pairs                               | 24    |
 | rnkg          | Reverse Nodes in k-Group                          | 25    |
+| rdsr          | Remove Duplicates from Sorted Array               | 26    |
 | sqrt          | sqrt                                              | 69    |
 | SLL           | Reverse Linked List                               | 206   |
 
