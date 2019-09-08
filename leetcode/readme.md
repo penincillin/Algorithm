@@ -22,6 +22,6 @@
 | rnkg          | Reverse Nodes in k-Group                          | 25    |
 | rdsr          | Remove Duplicates from Sorted Array               | 26    |
 | dti           | Divide Two Integers                               | 29    |
+| jump_game     | Jump Game                                         | 55    |
 | sqrt          | sqrt                                              | 69    |
 | SLL           | Reverse Linked List                               | 206   |
-
