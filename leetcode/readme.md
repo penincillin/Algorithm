@@ -22,8 +22,10 @@
 | rnkg          | Reverse Nodes in k-Group                          | 25    |
 | rdsr          | Remove Duplicates from Sorted Array               | 26    |
 | dti           | Divide Two Integers                               | 29    |
+| scaw          | Substring with Concatenation of All Words         | 30    |
 | jump_game_II  | Jump Game II                                      | 45    |
 | jump_game     | Jump Game                                         | 55    |
 | sqrt          | sqrt                                              | 69    |
 | SLL           | Reverse Linked List                               | 206   |
+| ssek          | Subarray Sum Equals K                             | 560   |
 | lcs           | Longeset Common substring                         | 1143  |
