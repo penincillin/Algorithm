@@ -23,6 +23,7 @@
 | rdsr          | Remove Duplicates from Sorted Array               | 26    |
 | dti           | Divide Two Integers                               | 29    |
 | scaw          | Substring with Concatenation of All Words         | 30    |
+| next_permute  | Next Perumtation                                  | 31    |
 | jump_game_II  | Jump Game II                                      | 45    |
 | jump_game     | Jump Game                                         | 55    |
 | sqrt          | sqrt                                              | 69    |
