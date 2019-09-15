@@ -30,6 +30,7 @@
 | jump_game_two     | Jump Game II                                      | 45    |
 | jump_game         | Jump Game                                         | 55    |
 | sqrt              | sqrt                                              | 69    |
+| min_in_rotated_** | Find minimum in rotated sorted array              | 153   | 
 | RLL               | Reverse Linked List                               | 206   |
 | ssek              | Subarray Sum Equals K                             | 560   |
 | lcs               | Longeset Common substring                         | 1143  |
