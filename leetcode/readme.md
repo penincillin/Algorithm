@@ -25,12 +25,15 @@
 | scaw              | Substring with Concatenation of All Words         | 30    |
 | next_permute      | Next Perumtation                                  | 31    |
 | lvp               | Longest Valid Parentheses                         | 32    |
-| rsra			    | Search in Rotated Sorted Array                    | 33    |   
+| rsra			    | Search in Rotated Sorted Array                    | 33    |
 | fist_and_last     | Find First and Last Position of Element           | 34    |
+| insert_position   | Search Insert Position                            | 35    |
+| valid_sudoku      | Valid Sudoku                                      | 36    |
+| count_and_say     | Count and Say                                     | 38    |
 | jump_game_two     | Jump Game II                                      | 45    |
 | jump_game         | Jump Game                                         | 55    |
 | sqrt              | sqrt                                              | 69    |
-| min_in_rotated_** | Find minimum in rotated sorted array              | 153   | 
+| min_in_rotated_** | Find minimum in rotated sorted array              | 153   |
 | RLL               | Reverse Linked List                               | 206   |
 | ssek              | Subarray Sum Equals K                             | 560   |
 | lcs               | Longeset Common substring                         | 1143  |
