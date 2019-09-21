@@ -28,6 +28,7 @@
 | rsra			    | Search in Rotated Sorted Array                    | 33    |   
 | fist_and_last     | Find First and Last Position of Element           | 34    |
 | jump_game_two     | Jump Game II                                      | 45    |
+| rotate_matrix     | Rotate Image                                      | 48    |
 | jump_game         | Jump Game                                         | 55    |
 | sqrt              | sqrt                                              | 69    |
 | min_in_rotated_** | Find minimum in rotated sorted array              | 153   | 
