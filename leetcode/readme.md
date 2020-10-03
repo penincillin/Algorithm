@@ -1,8 +1,8 @@
 
 | File Name                 | Problem title                                     | ID    |
 |:-------------:            |:-------------------------------------------------:|:-----:|
-| twoSum                    | Two Sum                                           | 1     |
-| addTwoNumbers             | Add Two Numbers                                   | 2     |
+| two_sum                   | Two Sum                                           | 1     |
+| add_two_numbers           | Add Two Numbers                                   | 2     |
 | lswrc                     | longest substring without repeating characters    | 3     |
 | mtsa                      | median of two sorted arrays                       | 4     |
 | lps                       | longest palindromic substring                     | 5     |
@@ -29,10 +29,13 @@
 | fist_and_last             | Find First and Last Position of Element           | 34    |
 | insert_position           | Search Insert Position                            | 35    |
 | valid_sudoku              | Valid Sudoku                                      | 36    |
+| sudoku_solver             | Sudoku Solver                                     | 37    |
 | count_and_say             | Count and Say                                     | 38    |
 | combine_sum               | Combine Sum                                       | 39    |
 | combine_sum_two           | Combine Sum Two                                   | 40    |
 | first_missing_interger    | First Missing Interger                            | 41    |
+| mul_str                   | Multiply Strings                                  | 43    |
+| wildcard_matching         | Wildcard Matching                                 | 44    |
 | jump_game_two             | Jump Game II                                      | 45    |
 | jump_game                 | Jump Game                                         | 55    |
 | sqrt                      | sqrt                                              | 69    |
