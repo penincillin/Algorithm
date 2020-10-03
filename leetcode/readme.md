@@ -1,4 +1,3 @@
-
 | File Name                 | Problem title                                     | ID    |
 |:-------------:            |:-------------------------------------------------:|:-----:|
 | two_sum                   | Two Sum                                           | 1     |
@@ -37,6 +36,7 @@
 | mul_str                   | Multiply Strings                                  | 43    |
 | wildcard_matching         | Wildcard Matching                                 | 44    |
 | jump_game_two             | Jump Game II                                      | 45    |
+| rotate_matrix             | Rotate Image                                      | 48    |
 | jump_game                 | Jump Game                                         | 55    |
 | sqrt                      | sqrt                                              | 69    |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
