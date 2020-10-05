@@ -40,6 +40,7 @@
 | Permutations_II           | Permutations II                                   | 47    |
 | rotate_matrix             | Rotate Image                                      | 48    |
 | group_ngram               | Group Anagrams                                    | 49    |
+| pow                       | Pow(x, n)                                         | 50    |
 | jump_game                 | Jump Game                                         | 55    |
 | sqrt                      | sqrt                                              | 69    |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
