@@ -36,7 +36,10 @@
 | mul_str                   | Multiply Strings                                  | 43    |
 | wildcard_matching         | Wildcard Matching                                 | 44    |
 | jump_game_two             | Jump Game II                                      | 45    |
+| Permutations              | Permutations                                      | 46    |
+| Permutations_II           | Permutations II                                   | 47    |
 | rotate_matrix             | Rotate Image                                      | 48    |
+| group_ngram               | Group Anagrams                                    | 49    |
 | jump_game                 | Jump Game                                         | 55    |
 | sqrt                      | sqrt                                              | 69    |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
