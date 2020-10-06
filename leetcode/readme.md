@@ -4,7 +4,7 @@
 | add_two_numbers           | Add Two Numbers                                   | 2     |
 | lswrc                     | longest substring without repeating characters    | 3     |
 | mtsa                      | median of two sorted arrays                       | 4     |
-| lps                       | longest palindromic substring                     | 5     |
+| lps                       | **longest palindromic substring**                 | 5     |
 | zzc                       | zigzag conversion                                 | 6     |
 | atoi                      | String to Integer                                 | 8     |
 | rem                       | Regular Expression Matching                       | 10    |
@@ -41,10 +41,14 @@
 | rotate_matrix             | Rotate Image                                      | 48    |
 | group_ngram               | Group Anagrams                                    | 49    |
 | pow                       | Pow(x, n)                                         | 50    |
+| n_queens                  | N-Queens                                          | 51    |
+| n_queens                  | N-Queens II                                       | 52    |
+| Maximum Subarray          | Maximum Subarray                                  | 53    |
 | jump_game                 | Jump Game                                         | 55    |
 | sqrt                      | sqrt                                              | 69    |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
 | RLL                       | Reverse Linked List                               | 206   |
 | slide_win_max             | Sliding Window Maximum                            | 239   |
+| lpss                      | Longest Palindomic Subsequence                    | 516   |
 | ssek                      | Subarray Sum Equals K                             | 560   |
 | lcs                       | Longeset Common substring                         | 1143  |
