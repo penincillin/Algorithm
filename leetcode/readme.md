@@ -44,6 +44,7 @@
 | n_queens                  | N-Queens                                          | 51    |
 | n_queens                  | N-Queens II                                       | 52    |
 | Maximum Subarray          | Maximum Subarray                                  | 53    |
+| spiral_matrix             | Spiral Matrix                                     | 54    |
 | jump_game                 | Jump Game                                         | 55    |
 | sqrt                      | sqrt                                              | 69    |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
