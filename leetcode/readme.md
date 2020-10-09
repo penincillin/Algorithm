@@ -4,8 +4,8 @@
 | add_two_numbers           | Add Two Numbers                                   | 2     |
 | lswrc                     | longest substring without repeating characters    | 3     |
 | mtsa                      | median of two sorted arrays                       | 4     |
-| lps                       | **longest palindromic substring**                 | 5     |
-| zzc                       | zigzag conversion                                 | 6     |
+| lps                       | longest palindromic substring                     | 5     |
+| zzc                       | **zigzag conversion**                             | 6     |
 | atoi                      | String to Integer                                 | 8     |
 | rem                       | Regular Expression Matching                       | 10    |
 | cmw                       | Container with Most Water                         | 11    |
@@ -35,7 +35,7 @@
 | first_missing_interger    | First Missing Interger                            | 41    |
 | mul_str                   | Multiply Strings                                  | 43    |
 | wildcard_matching         | Wildcard Matching                                 | 44    |
-| jump_game_two             | Jump Game II                                      | 45    |
+| jump_game_II              | Jump Game II                                      | 45    |
 | Permutations              | Permutations                                      | 46    |
 | Permutations_II           | Permutations II                                   | 47    |
 | rotate_matrix             | Rotate Image                                      | 48    |
@@ -46,6 +46,9 @@
 | Maximum Subarray          | Maximum Subarray                                  | 53    |
 | spiral_matrix             | Spiral Matrix                                     | 54    |
 | jump_game                 | Jump Game                                         | 55    |
+| merge_intervals           | Merge Intervals                                   | 56    |
+| insert_intervals          | Insert Intervals                                  | 57    |
+| len_of_last_word          | Length of Last Word                               | 58    |
 | sqrt                      | sqrt                                              | 69    |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
 | RLL                       | Reverse Linked List                               | 206   |

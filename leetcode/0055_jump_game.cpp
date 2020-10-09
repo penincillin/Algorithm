@@ -1,3 +1,7 @@
+/*
+ * Jump Game, https://leetcode.com/problems/jump-game/
+ * The idea is to use greedy algorithm.
+ */
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -6,33 +10,24 @@ using namespace std;
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
-        int max_idx = 0;
-        auto array_len = nums.size();
-        for (auto i=0; i<array_len; i++){
-            if (max_idx>=i) {
-                if (i==array_len-1){
-                    return true;
-                }
-                max_idx = max(max_idx, i+nums[i]);
-                if (max_idx>=array_len-1){
-                    return true;
-                }
+        int head = 0;
+        int reach = 0;
+        int len = nums.size();
+        while (head < len && head <= reach){
+            reach = max(reach, head+nums[head]);
+            if (reach >= len-1){
+                return true;
             }
-            else{
-                return false;
-            }
+            head ++;
         }
         return false;
     }
 };
 
 int main(){
-    int A[] = {2,3,1,1,4};
-	int n = sizeof(A) / sizeof(A[0]);
-	vector<int> nums(A, A + n);
-    
-    Solution solution;
-    bool res = solution.canJump(nums);
-    cout << res << endl;
-    return 0;
+    //vector<int> nums{0, 3, 1, 1, 4};
+    vector<int> nums{3, 2, 1, 0, 4};
+    Solution sol;
+    bool res = sol.canJump(nums);
+    cout << res << "\n";
 }
