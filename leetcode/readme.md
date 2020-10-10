@@ -51,6 +51,7 @@
 | spiral_matrix_II          | Spiral Matrix II                                  | 58    |
 | len_of_last_word          | Length of Last Word                               | 59    |
 | permutate_seq             | Permutation Sequence                              | 60    |
+| rotate_list               | Rotate List                                       | 61    |
 | sqrt                      | sqrt                                              | 69    |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
 | RLL                       | Reverse Linked List                               | 206   |
