@@ -48,8 +48,9 @@
 | jump_game                 | Jump Game                                         | 55    |
 | merge_intervals           | Merge Intervals                                   | 56    |
 | insert_intervals          | Insert Intervals                                  | 57    |
-| spiral_matrix_II          | Spiral Matrix II                                  | 59    |
-| len_of_last_word          | Length of Last Word                               | 58    |
+| spiral_matrix_II          | Spiral Matrix II                                  | 58    |
+| len_of_last_word          | Length of Last Word                               | 59    |
+| permutate_seq             | Permutation Sequence                              | 60    |
 | sqrt                      | sqrt                                              | 69    |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
 | RLL                       | Reverse Linked List                               | 206   |
