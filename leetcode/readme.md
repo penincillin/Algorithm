@@ -35,9 +35,11 @@
 | jump_game_two             | Jump Game II                                      | 45    |
 | rotate_matrix             | Rotate Image                                      | 48    |
 | jump_game                 | Jump Game                                         | 55    |
+| add_bin                   | Add Binary                                        | 67    |
 | sqrt                      | sqrt                                              | 69    |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
 | RLL                       | Reverse Linked List                               | 206   |
 | slide_win_max             | Sliding Window Maximum                            | 239   |
+| exp_and_op                | Expression Add Operators                          | 282   |
 | ssek                      | Subarray Sum Equals K                             | 560   |
 | lcs                       | Longeset Common substring                         | 1143  |
