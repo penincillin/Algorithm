@@ -1,4 +1,5 @@
 #include <iostream>
+#include <assert.h>
 #include <algorithm>
 #include <stdlib.h>
 #include <time.h>
@@ -36,34 +37,65 @@ int partition(int* A, int head, int tail){
     return head;
 }
 
-void quick_sort(int* A, int head, int tail){
-    if (head < tail){
-        int p = partition(A, head, tail);
-        quick_sort(A, head, p-1);
-        quick_sort(A, p+1, tail);
+int quick_select(int* A, int k, int head, int tail){
+    if (head >= tail){
+        return A[head];
     }
+
+    int p = partition(A, head, tail); // this partition() always returns absolute index of whole A
+
+    if (p == k){
+        return A[p];
+    }
+    else if (p < k) {
+        return quick_select(A, k, p+1, tail);
+    }
+    else{
+        return quick_select(A, k, head, p-1);
+    }
+
 }
 
-int main(){
-    for (int n=0; n<1000; n++){
-        int num_data = 10000;
+// {{{
+void check_batch(){
+    for (int n=0; n<100000; n++){
+        int num_data = 10;
         srand(time(NULL));
         int *A = new int[num_data];
         int *B = new int[num_data];
+        int *C = new int[num_data];
         for (int i=0; i<num_data; i++){
-            A[i] = rand() % 100 + 1;
+            A[i] = rand() % 10;
             B[i] = A[i];
+            C[i] = A[i];
         }
 
-        quick_sort(A, 0, num_data-1);
+        int k = rand() % num_data;
+
+        int res0 = quick_select(A, k, 0, num_data-1);
+
         sort(B, B+num_data);
+        int res1 = B[k];
 
-        for (int i=0; i<num_data; i++){
-            assert (A[i] == B[i]);
-        }
+        assert (res0 == res1);
 
         delete [] A;
         delete [] B;
     }
+}
+
+
+void check_one(){
+    int A[] = {3, 6, 0, 7, 0, 4, 1, 4, 2, 8};
+    int num_data = sizeof(A) / sizeof(A[0]);
+    int k = 7;
+
+    int res = quick_select(A, k, 0, num_data-1);
+    cout << res << "\n";
+
+}
+
+int main(){
+    check_batch();
     return 0;
 }

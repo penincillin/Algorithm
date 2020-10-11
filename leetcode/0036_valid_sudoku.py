@@ -5,50 +5,59 @@
 class Solution(object):
     def check_rows(self, board):
         for i in range(9):
-            exists = [False for j in range(9)]
+            exist = [False for _ in range(9)]
             for j in range(9):
-                if board[i][j].isdigit():
-                    if exists[int(board[i][j])-1]:
+                value = board[i][j]
+                if value.isdigit():
+                    value = int(value)-1
+                    if exist[value]:
                         return False
                     else:
-                        exists[int(board[i][j])-1] = True
+                        exist[value] = True
         return True
 
     def check_cols(self, board):
         for j in range(9):
-            exists = [False for i in range(9)]
+            exist = [False for _ in range(9)]
             for i in range(9):
-                if board[i][j].isdigit():
-                    if exists[int(board[i][j])-1]:
+                value = board[i][j]
+                if value.isdigit():
+                    value = int(value)-1
+                    if exist[value]:
                         return False
                     else:
-                        exists[int(board[i][j])-1] = True
+                        exist[value] = True
         return True
     
+
     def check_subboxes(self, board):
-        for i in range(3):
-            for j in range(3):
-                exists = [False for k in range(9)]
-                for k in range(9):
-                    x = i*3+k//3
-                    y = j*3+k%3
-                    if board[x][y].isdigit():
-                        if exists[int(board[x][y])-1]:
-                            return False
-                        else:
-                            exists[int(board[x][y])-1] = True
+        for k in range(9):
+            x0 = (k % 3) * 3
+            y0 = (k // 3)*3
+            exist = [False for _ in range(9)]
+            for i in range(9):
+                x = x0 + (i % 3)
+                y = y0 + (i // 3)
+                value = board[y][x]
+                if value.isdigit():
+                    value = int(value)-1
+                    if exist[value]:
+                        return False
+                    else:
+                        exist[value] = True
         return True
+
 
     def isValidSudoku(self, board):
         res = self.check_rows(board)
         if not res:
             return False
         else:
-            res &= self.check_cols(board)
+            res = self.check_cols(board)
             if not res:
                 return False
             else:
-                return res & self.check_subboxes(board)
+                return self.check_subboxes(board)
 
 
 if __name__ == '__main__':
