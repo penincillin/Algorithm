@@ -5,9 +5,9 @@
 | lswrc                     | longest substring without repeating characters    | 3     |
 | mtsa                      | median of two sorted arrays                       | 4     |
 | lps                       | longest palindromic substring                     | 5     |
-| zzc                       |  zigzag conversion                                | 6     |
-| reverse_int					 | **Reverse Interger**                              | 7      |
-| atoi                      | String to Integer                                 | 8     |
+| zzc                       | zigzag conversion                                 | 6     |
+| reverse_int			    | Reverse Interger                                  | 7     |
+| atoi                      | **String to Integer**                             | 8     |
 | rem                       | Regular Expression Matching                       | 10    |
 | cmw                       | Container with Most Water                         | 11    |
 | *missing*                 | Longest prefix string                             | 14    |
@@ -25,7 +25,7 @@
 | scaw                      | Substring with Concatenation of All Words         | 30    |
 | next_permute              | Next Perumtation                                  | 31    |
 | lvp                       | Longest Valid Parentheses                         | 32    |
-| rsra			               | Search in Rotated Sorted Array                    | 33    |
+| rsra			            | Search in Rotated Sorted Array                    | 33    |
 | fist_and_last             | Find First and Last Position of Element           | 34    |
 | insert_position           | Search Insert Position                            | 35    |
 | valid_sudoku              | Valid Sudoku                                      | 36    |

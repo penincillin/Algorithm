@@ -5,8 +5,9 @@
 | lswrc                     | longest substring without repeating characters    | 3     |
 | mtsa                      | median of two sorted arrays                       | 4     |
 | lps                       | longest palindromic substring                     | 5     |
-| zzc                       | **zigzag conversion**                             | 6     |
+| zzc                       | zigzag conversion                                 | 6     |
 | atoi                      | String to Integer                                 | 8     |
+| palindrome_number         | **Palindrome Number**                             | 9     |
 | rem                       | Regular Expression Matching                       | 10    |
 | cmw                       | Container with Most Water                         | 11    |
 | *missing*                 | Longest prefix string                             | 14    |
