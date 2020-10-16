@@ -53,6 +53,9 @@
 | len_of_last_word          | Length of Last Word                               | 59    |
 | permutate_seq             | Permutation Sequence                              | 60    |
 | rotate_list               | Rotate List                                       | 61    |
+| unique_path               | Unique Paths                                      | 62    |
+| unique_path_II            | Unique Paths II                                   | 63    |
+| min_path_sum              | Minimum Path Sum                                  | 64    |
 | sqrt                      | sqrt                                              | 69    |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
 | RLL                       | Reverse Linked List                               | 206   |
