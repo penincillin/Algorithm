@@ -66,7 +66,7 @@ public:
             return;
         }
         else{
-            bool visit[101];
+            bool visit[101]; // this array stores whether the right child of a node has been considered
             memset(visit, 0, 101);
             TreeNode *stack[101];
             stack[0] = root;
