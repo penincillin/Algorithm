@@ -57,6 +57,9 @@
 | unique_path_II            | Unique Paths II                                   | 63    |
 | min_path_sum              | Minimum Path Sum                                  | 64    |
 | sqrt                      | sqrt                                              | 69    |
+| btree_inorder_traverse    | Binary Tree Inorder Traversal                     | 94    |
+| btree_preorder_traverse   | Binary Tree Preorder Traversal                    | 144   |
+| btree_postorder_traverse  | Binary Tree Postorder Traversal                   | 145   |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
 | RLL                       | Reverse Linked List                               | 206   |
 | slide_win_max             | Sliding Window Maximum                            | 239   |
