@@ -61,6 +61,7 @@
 | symm_tree                 | Symmetric Tree                                    | 101   |
 | con_btree_pre_in_order    | Construct Btree from preorder and inorder         | 105   |
 | con_btree_in_post_order   | Construct Btree from inorder and postorder        | 106   |
+| convert_sort_list_to_bst  | Convert Sorted List to Binary Search Tree         | 109   |
 | btree_preorder_traverse   | Binary Tree Preorder Traversal                    | 144   |
 | btree_postorder_traverse  | Binary Tree Postorder Traversal                   | 145   |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
