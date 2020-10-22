@@ -1,5 +1,5 @@
-/* Binary Tree Inorder Traversal, https://leetcode.com/problems/binary-tree-inorder-traversal/
- * No-recursion version: https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/
+/* Construct Binary Tree from Inorder and Postorder Traversal
+ * https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
  */
 
 #include <iostream>
@@ -11,26 +11,6 @@
 #include <unordered_map>
 using namespace std;
 
-template <typename T>
-void print_vec(vector<T> vec){
-    for(int i=0; i<vec.size(); i++){
-        cout << vec[i] << " ";
-    }
-    cout << "\n";
-}
-
-template <typename T>
-void print_vec_II(vector<vector<T>> vec){
-    for(int i=0; i<vec.size(); i++){
-        for(int j=0; j<vec[i].size(); j++){
-            cout << vec[i][j] << " ";
-        }
-        cout << "\n";
-    }
-    cout << "------------------\n";
-}
-
-
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -40,18 +20,47 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+void print_inorder(TreeNode* root){
+    if (root != nullptr){
+        print_inorder(root->left);
+        cout << root->val << " ";
+        print_inorder(root->right);
+    }
+}
 
-TreeNode * build_tree(){
-    TreeNode *root = new TreeNode(1);
-    TreeNode *n1 = new TreeNode(2);
-    TreeNode *n2 = new TreeNode(3);
-    root->right = n1;
-    n1->left = n2;
-    return root;
+void print_preorder(TreeNode* root){
+    if (root != nullptr){
+        cout << root->val << " ";
+        print_preorder(root->left);
+        print_preorder(root->right);
+    }
+}
+
+void print_postorder(TreeNode* root){
+    if (root != nullptr){
+        print_postorder(root->left);
+        print_postorder(root->right);
+        cout << root->val << " ";
+    }
+}
+
+
+void print_tree(TreeNode *root, string print_type){
+    if (print_type == "inorder"){
+        print_inorder(root);
+        cout << "\n";
+    }
+    else if (print_type == "preorder"){
+        print_preorder(root);
+        cout << "\n";
+    }
+    else if (print_type == "postorder"){
+        print_postorder(root);
+        cout << "\n";
+    }
 }
 
 
 int main(){
-    TreeNode *root = build_tree();
     return 0;
 }
