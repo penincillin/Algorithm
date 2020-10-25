@@ -60,7 +60,9 @@
 | btree_inorder_traverse    | Binary Tree Inorder Traversal                     | 94    |
 | unique_bst                | Unique Binary Search Tree                         | 96    |
 | valid_bst                 | Valid Binary Search Tree                          | 98    |
+| same_tree                 | Same Tree                                         | 100   |
 | symm_tree                 | Symmetric Tree                                    | 101   |
+| btree_level_traverse      | Binary Tree Level Order Traversal                 | 102   |
 | con_btree_pre_in_order    | Construct Btree from preorder and inorder         | 105   |
 | con_btree_in_post_order   | Construct Btree from inorder and postorder        | 106   |
 | convert_sort_list_to_bst  | Convert Sorted List to Binary Search Tree         | 109   |
