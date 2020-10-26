@@ -70,6 +70,8 @@
 | btree_postorder_traverse  | Binary Tree Postorder Traversal                   | 145   |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
 | RLL                       | Reverse Linked List                               | 206   |
+| course_schedule           | Course Schedule                                   | 207   |
+| course_schedule_II        | Course Schedule                                   | 210   |
 | slide_win_max             | Sliding Window Maximum                            | 239   |
 | exp_and_op                | Expression Add Operators                          | 282   |
 | lpss                      | Longest Palindomic Subsequence                    | 516   |
