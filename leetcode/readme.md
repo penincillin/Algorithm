@@ -69,6 +69,7 @@
 | btree_preorder_traverse   | Binary Tree Preorder Traversal                    | 144   |
 | btree_postorder_traverse  | Binary Tree Postorder Traversal                   | 145   |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
+| num_of_islands            | Number of Islands                                 | 200   |
 | RLL                       | Reverse Linked List                               | 206   |
 | course_schedule           | Course Schedule                                   | 207   |
 | course_schedule_II        | Course Schedule                                   | 210   |
