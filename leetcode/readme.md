@@ -72,6 +72,7 @@
 | num_of_islands            | Number of Islands                                 | 200   |
 | RLL                       | Reverse Linked List                               | 206   |
 | course_schedule           | Course Schedule                                   | 207   |
+| trie                      | Implement Trie                                    | 208   |
 | course_schedule_II        | Course Schedule                                   | 210   |
 | slide_win_max             | Sliding Window Maximum                            | 239   |
 | exp_and_op                | Expression Add Operators                          | 282   |
