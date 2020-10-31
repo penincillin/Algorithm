@@ -6,8 +6,8 @@
 | mtsa                      | median of two sorted arrays                       | 4     |
 | lps                       | longest palindromic substring                     | 5     |
 | zzc                       | zigzag conversion                                 | 6     |
-| reverse_int			    | Reverse Interger                                  | 7     |
-| atoi                      | **String to Integer**                             | 8     |
+| atoi                      | String to Integer                                 | 8     |
+| palindrome_number         | **Palindrome Number**                             | 9     |
 | rem                       | Regular Expression Matching                       | 10    |
 | cmw                       | Container with Most Water                         | 11    |
 | *missing*                 | Longest prefix string                             | 14    |
@@ -53,9 +53,27 @@
 | len_of_last_word          | Length of Last Word                               | 59    |
 | permutate_seq             | Permutation Sequence                              | 60    |
 | rotate_list               | Rotate List                                       | 61    |
+| unique_path               | Unique Paths                                      | 62    |
+| unique_path_II            | Unique Paths II                                   | 63    |
+| min_path_sum              | Minimum Path Sum                                  | 64    |
 | sqrt                      | sqrt                                              | 69    |
+| btree_inorder_traverse    | Binary Tree Inorder Traversal                     | 94    |
+| unique_bst                | Unique Binary Search Tree                         | 96    |
+| valid_bst                 | Valid Binary Search Tree                          | 98    |
+| same_tree                 | Same Tree                                         | 100   |
+| symm_tree                 | Symmetric Tree                                    | 101   |
+| btree_level_traverse      | Binary Tree Level Order Traversal                 | 102   |
+| con_btree_pre_in_order    | Construct Btree from preorder and inorder         | 105   |
+| con_btree_in_post_order   | Construct Btree from inorder and postorder        | 106   |
+| convert_sort_list_to_bst  | Convert Sorted List to Binary Search Tree         | 109   |
+| btree_preorder_traverse   | Binary Tree Preorder Traversal                    | 144   |
+| btree_postorder_traverse  | Binary Tree Postorder Traversal                   | 145   |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
+| num_of_islands            | Number of Islands                                 | 200   |
 | RLL                       | Reverse Linked List                               | 206   |
+| course_schedule           | Course Schedule                                   | 207   |
+| trie                      | Implement Trie                                    | 208   |
+| course_schedule_II        | Course Schedule                                   | 210   |
 | slide_win_max             | Sliding Window Maximum                            | 239   |
 | exp_and_op                | Expression Add Operators                          | 282   |
 | lpss                      | Longest Palindomic Subsequence                    | 516   |
