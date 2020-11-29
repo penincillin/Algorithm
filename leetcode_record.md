@@ -7,10 +7,13 @@
 | lps                       | longest palindromic substring                     | 5     |
 | zzc                       | zigzag conversion                                 | 6     |
 | reverse_int			    | Reverse Interger                                  | 7     |
-| atoi                      | **String to Integer**                             | 8     |
-| rem                       | Regular Expression Matching                       | 10    |
+| atoi                      | String to Integer                                 | 8     |
+| palindrome_number         | Palindrome Number                                 | 9     |
+| re_match                  | Regular Expression Matching                       | 10    |
 | cmw                       | Container with Most Water                         | 11    |
-| *missing*                 | Longest prefix string                             | 14    |
+| int_to_roman              | Integer to Roman                                  | 12    |
+| roman_to_int              | Roman to Integer**                                | 13    |
+| lcp                       | **Longest prefix string**                         | 14    |
 | 3sum                      | 3Sum                                              | 15    |
 | 3Sum_cloest               | 3Sum Cloest                                       | 16    |
 | lcpn                      | Letter Combinations of a Phone Number             | 17    |
@@ -53,7 +56,11 @@
 | len_of_last_word          | Length of Last Word                               | 59    |
 | permutate_seq             | Permutation Sequence                              | 60    |
 | rotate_list               | Rotate List                                       | 61    |
+| valid_number              | Valid Number                                      | 65    |
+| plus_one                  | Pluse One                                         | 66    |
 | sqrt                      | sqrt                                              | 69    |
+| set_mat_zero              | Set Matrices Zeroes                               | 73    |
+| Maximum Depth of btree    | max_depth_btree                                   | 104   |
 | min_in_rotated_**         | Find minimum in rotated sorted array              | 153   |
 | RLL                       | Reverse Linked List                               | 206   |
 | slide_win_max             | Sliding Window Maximum                            | 239   |
