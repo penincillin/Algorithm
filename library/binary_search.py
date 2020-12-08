@@ -1,5 +1,6 @@
 import os, sys, shutil
 
+
 def bin_search_left(l, target):
     # return value is i, then a[i:]>=x and a[:i]<x
     start, end = 0, len(l)
@@ -10,6 +11,7 @@ def bin_search_left(l, target):
         else:
             end = mid
     return start
+
 
 def bin_search_right(l, target):
     # return value is i, then a[:i]<=x a nd a[i:]>x
