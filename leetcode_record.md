@@ -71,6 +71,7 @@
 | subsets                       | Subsets                                           | 78    |
 | largest_rect_hist             | Largest Rectangle Histogram                       | 79    |
 | remove_duplicate_II           | Remove Duplicates from Sorted Array II            | 80    |
+| remove_duplicate_list_II      | Remove Duplicates from Sorted List II             | 82    |
 | btree_inorder_traverse        | Binary Tree Inorder Traversal                     | 94    |
 | unique_bst                    | Unique Binary Search Tree                         | 96    |
 | valid_bst                     | Valid Binary Search Tree                          | 98    |
@@ -85,6 +86,7 @@
 | balance_btree                 | balanced binary tree                              | 110   |
 | min_depth_btree               | Minimum depth of binary tree                      | 111   |
 | buy_sell_stock_II             | Best time to buy and sell tock 2                  | 122   |
+| single_number                 | Single Number                                     | 136   |
 | btree_preorder_traverse       | Binary Tree Preorder Traversal                    | 144   |
 | btree_postorder_traverse      | Binary Tree Postorder Traversal                   | 145   |
 | lru_cache                     | LRU Cache                                         | 146   |
@@ -98,6 +100,7 @@
 | course_schedule_II            | Course Schedule                                   | 210   |
 | slide_win_max                 | Sliding Window Maximum                            | 239   |
 | exp_and_op                    | Expression Add Operators                          | 282   |
+| min_height_tree               | Minimum Height Trees                              | 310   |
 | lpss                          | Longest Palindomic Subsequence                    | 516   |
 | ssek                          | Subarray Sum Equals K                             | 560   |
 | lcs                           | Longeset Common substring                         | 1143  |
