@@ -100,6 +100,7 @@
 | course_schedule_II            | Course Schedule                                   | 210   |
 | slide_win_max                 | Sliding Window Maximum                            | 239   |
 | exp_and_op                    | Expression Add Operators                          | 282   |
+| find_median_data_stream       | Find Median from Data Stream                      | 295   |
 | min_height_tree               | Minimum Height Trees                              | 310   |
 | lpss                          | Longest Palindomic Subsequence                    | 516   |
 | ssek                          | Subarray Sum Equals K                             | 560   |
