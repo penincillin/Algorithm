@@ -108,7 +108,9 @@
 | sliding_window_median         | Sliding Window Median                             | 480   |
 | lpss                          | Longest Palindomic Subsequence                    | 516   |
 | ssek                          | Subarray Sum Equals K                             | 560   |
+| btree_tilt                    | Binary Tree Tilt                                  | 563   |
 | permute_in_str                | Permutation in String                             | 567   |
 | longest_turb_array            | Longest Turbulent Subarray                        | 978   |
 | subarray_k_diff_int           | Subarrays with K Different Integers               | 992   |
+| max_consec_ones_III           | Max Consecutive Ones III                          | 1004  |
 | lcs                           | Longeset Common substring                         | 1143  |

@@ -3,6 +3,7 @@ from collections import defaultdict, Counter
 
 
 def main():
+
     sol = Solution()
 
 

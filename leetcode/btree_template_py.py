@@ -12,7 +12,12 @@ class TreeNode(object):
         self.right = right
 
 
+def build_tree():
+    pass
+
+
 def main():
+
     sol = Solution()
 
 
