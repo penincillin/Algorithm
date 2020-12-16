@@ -94,12 +94,14 @@
 | reverse_polish_notation       | Evaluate Reverse Polish Notation                  | 150   |
 | min_in_rotated_**             | Find minimum in rotated sorted array              | 153   |
 | frac_to_decimal               | Fraction to Recurring Decimal                     | 166   |
+| major_element                 | Majority Element                                  | 169   |
 | num_of_islands                | Number of Islands                                 | 200   |
 | RLL                           | Reverse Linked List                               | 206   |
 | course_schedule               | Course Schedule                                   | 207   |
 | trie                          | Implement Trie                                    | 208   |
 | course_schedule_II            | Course Schedule                                   | 210   |
 | slide_win_max                 | Sliding Window Maximum                            | 239   |
+| search_2d_matrix_II           | Search a 2D Matrix II                             | 240   |
 | exp_and_op                    | Expression Add Operators                          | 282   |
 | find_median_data_stream       | Find Median from Data Stream                      | 295   |
 | min_height_tree               | Minimum Height Trees                              | 310   |
