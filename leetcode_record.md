@@ -100,6 +100,7 @@
 | course_schedule               | Course Schedule                                   | 207   |
 | trie                          | Implement Trie                                    | 208   |
 | course_schedule_II            | Course Schedule                                   | 210   |
+| contain_duplicates_III        | Contain Duplicates III                            | 220   |
 | slide_win_max                 | Sliding Window Maximum                            | 239   |
 | search_2d_matrix_II           | Search a 2D Matrix II                             | 240   |
 | exp_and_op                    | Expression Add Operators                          | 282   |
@@ -109,9 +110,10 @@
 | longest_repeat_char_replace   | Longest Repeating Character ...                   | 424   |
 | sliding_window_median         | Sliding Window Median                             | 480   |
 | lpss                          | Longest Palindomic Subsequence                    | 516   |
-| ssek                          | Subarray Sum Equals K                             | 560   |
+| subarray_sum_equal_k          | Subarray Sum Equals K                             | 560   |
 | btree_tilt                    | Binary Tree Tilt                                  | 563   |
 | permute_in_str                | Permutation in String                             | 567   |
+| subarray_product_less_K       | Subarray Product Less Than K                      | 713   |
 | longest_turb_array            | Longest Turbulent Subarray                        | 978   |
 | subarray_k_diff_int           | Subarrays with K Different Integers               | 992   |
 | max_consec_ones_III           | Max Consecutive Ones III                          | 1004  |

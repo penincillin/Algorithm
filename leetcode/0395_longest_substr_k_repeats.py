@@ -22,13 +22,10 @@ class Solution(object):
             for cur_unique in range(1, n_unique+1):
                 head, tail = 0, 0
                 record = defaultdict(int)
-                valid_set = set()
                 record[s[0]] += 1
                 while(tail < N):
                     if len(record) > cur_unique:
                         record[s[head]] -= 1
-                        if s[head] in valid_set and record[s[head]]<k:
-                            valid_set.remove(s[head])
                         if record[s[head]] == 0:
                             del record[s[head]]
                         head += 1
