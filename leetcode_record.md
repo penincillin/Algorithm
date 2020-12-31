@@ -64,6 +64,7 @@
 | text_justify                  | Text Justification                                | 68    |
 | sqrt                          | sqrt                                              | 69    |
 | climb_stair                   | Climbing Stairs                                   | 70    |
+| edit_distance                 | Edit Distance                                     | 72    |
 | set_mat_zero                  | Set Matrices Zeroes                               | 73    |
 | search_2D_mat                 | Search 2D Matrix                                  | 74    |
 | sort_color                    | Sort Colors                                       | 75    |
@@ -73,6 +74,7 @@
 | largest_rect_hist             | Largest Rectangle Histogram                       | 79    |
 | remove_duplicate_II           | Remove Duplicates from Sorted Array II            | 80    |
 | remove_duplicate_list_II      | Remove Duplicates from Sorted List II             | 82    |
+| scramble_str                  | Scramble String                                   | 87    |
 | btree_inorder_traverse        | Binary Tree Inorder Traversal                     | 94    |
 | unique_bst                    | Unique Binary Search Tree                         | 96    |
 | valid_bst                     | Valid Binary Search Tree                          | 98    |
@@ -123,3 +125,4 @@
 | subarray_k_diff_int           | Subarrays with K Different Integers               | 992   |
 | max_consec_ones_III           | Max Consecutive Ones III                          | 1004  |
 | lcs                           | Longeset Common substring                         | 1143  |
+| front_mid_back_queue          | Design Front Middle Back Queue                    | 1670  |
