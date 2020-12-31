@@ -61,6 +61,7 @@
 | min_path_sum                  | Minimum Path Sum                                  | 64    |
 | valid_number                  | Valid Number                                      | 65    |
 | plus_one                      | Pluse One                                         | 66    |
+| text_justify                  | Text Justification                                | 68    |
 | sqrt                          | sqrt                                              | 69    |
 | climb_stair                   | Climbing Stairs                                   | 70    |
 | set_mat_zero                  | Set Matrices Zeroes                               | 73    |
@@ -82,9 +83,12 @@
 | con_btree_pre_in_order        | Construct Btree from preorder and inorder         | 105   |
 | con_btree_in_post_order       | Construct Btree from inorder and postorder        | 106   |
 | btree_level_order_traverse_II | BTree Level Order Traverse II                     | 107   |
+| sort_arrary_to_bst            | Convert Sorted Array to Binary Search Tree        | 108   |
 | convert_sort_list_to_bst      | Convert Sorted List to Binary Search Tree         | 109   |
 | balance_btree                 | balanced binary tree                              | 110   |
 | min_depth_btree               | Minimum depth of binary tree                      | 111   |
+| path_sum                      | Path Sum                                          | 112   |
+| path_sum_II                   | Path Sum II                                       | 113   |
 | buy_sell_stock_II             | Best time to buy and sell tock 2                  | 122   |
 | union_find                    | Union Find                                        | 130   |
 | single_number                 | Single Number                                     | 136   |
@@ -94,6 +98,7 @@
 | reverse_polish_notation       | Evaluate Reverse Polish Notation                  | 150   |
 | min_in_rotated_**             | Find minimum in rotated sorted array              | 153   |
 | frac_to_decimal               | Fraction to Recurring Decimal                     | 166   |
+| excel_column_title            |  Excel Sheet Column Title                         | 168   |
 | major_element                 | Majority Element                                  | 169   |
 | num_of_islands                | Number of Islands                                 | 200   |
 | RLL                           | Reverse Linked List                               | 206   |
