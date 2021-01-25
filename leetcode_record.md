@@ -28,7 +28,7 @@
 | scaw                          | Substring with Concatenation of All Words         | 30    |
 | next_permute                  | Next Perumtation                                  | 31    |
 | lvp                           | Longest Valid Parentheses                         | 32    |
-| rsra			                | Search in Rotated Sorted Array                    | 33    |
+| search_rotated_array			| Search in Rotated Sorted Array                    | 33    |
 | fist_and_last                 | Find First and Last Position of Element           | 34    |
 | insert_position               | Search Insert Position                            | 35    |
 | valid_sudoku                  | Valid Sudoku                                      | 36    |
@@ -74,7 +74,12 @@
 | largest_rect_hist             | Largest Rectangle Histogram                       | 79    |
 | remove_duplicate_II           | Remove Duplicates from Sorted Array II            | 80    |
 | remove_duplicate_list_II      | Remove Duplicates from Sorted List II             | 82    |
+| remove_dup_sort_list          | Remove Duplicates from Sorted List                | 83    |
+| partition_list                | Partition List                                    | 86    |
 | scramble_str                  | Scramble String                                   | 87    |
+| gray_code                     | Gray Code                                         | 89    |
+| subsets_II                    | Subsets II                                        | 90    |
+| restore_IP                    | Restore IP Addresses                              | 93    |
 | btree_inorder_traverse        | Binary Tree Inorder Traversal                     | 94    |
 | unique_bst                    | Unique Binary Search Tree                         | 96    |
 | valid_bst                     | Valid Binary Search Tree                          | 98    |
@@ -91,35 +96,60 @@
 | min_depth_btree               | Minimum depth of binary tree                      | 111   |
 | path_sum                      | Path Sum                                          | 112   |
 | path_sum_II                   | Path Sum II                                       | 113   |
+| btree_to_linked_list          | Flatten Binary Tree to Linked List                | 114   |
+| populate_right_child          | Populating Next Right Pointers in Each Node       | 116   |
 | buy_sell_stock_II             | Best time to buy and sell tock 2                  | 122   |
+| valid_palindrome              | Valid Palindrome                                  | 125   |
 | union_find                    | Union Find                                        | 130   |
+| gas_station                   | Gas Station                                       | 134   |
 | single_number                 | Single Number                                     | 136   |
+| copy_list_random_pointer      | Copy List with Random Pointer                     | 138   |
+| linked_list_cycle             | Linked List Cycle                                 | 141   |
+| linked_list_cycle_II          | Linked List Cycle II                              | 142   |
 | btree_preorder_traverse       | Binary Tree Preorder Traversal                    | 144   |
 | btree_postorder_traverse      | Binary Tree Postorder Traversal                   | 145   |
 | lru_cache                     | LRU Cache                                         | 146   |
+| insert_sort_list              | Insertion Sort List                               | 147   |
 | reverse_polish_notation       | Evaluate Reverse Polish Notation                  | 150   |
 | min_in_rotated_**             | Find minimum in rotated sorted array              | 153   |
 | frac_to_decimal               | Fraction to Recurring Decimal                     | 166   |
 | excel_column_title            |  Excel Sheet Column Title                         | 168   |
 | major_element                 | Majority Element                                  | 169   |
+| repeat_dna                    | Repeated DNA                                      | 187   |
+| reverse_bits                  | Reverse Bits                                      | 190   |
+| number_of_one_bits            | Number of 1 Bits                                  | 191   |
 | num_of_islands                | Number of Islands                                 | 200   |
+| bitwise_and_num_range         | Bitwise AND of Numbers Range                      | 201   |
 | RLL                           | Reverse Linked List                               | 206   |
 | course_schedule               | Course Schedule                                   | 207   |
 | trie                          | Implement Trie                                    | 208   |
 | course_schedule_II            | Course Schedule                                   | 210   |
+| add_search_world              | Design Add and Search Words Data Structure        | 211   |
 | contain_duplicates_III        | Contain Duplicates III                            | 220   |
+| basic_calculator              | Basic Calculator                                  | 224   |
+| implement_stack_use_queue     | Implement Stacks Using Queue                      | 225   |
+| basic_calculator_II           | Basic Calculator II                               | 227   |
+| implement_queue_use_stack     | Implement Queue Using Stacks                      | 232   |
 | slide_win_max                 | Sliding Window Maximum                            | 239   |
 | search_2d_matrix_II           | Search a 2D Matrix II                             | 240   |
+| ugly_number_II                | Ugly Number II                                    | 264   |
 | exp_and_op                    | Expression Add Operators                          | 282   |
+| peeking_iterator              | Peeking Iterator                                  | 287   |
 | find_median_data_stream       | Find Median from Data Stream                      | 295   |
 | min_height_tree               | Minimum Height Trees                              | 310   |
+| super_ugly_number             | Super Ugly Number                                 | 313   |
+| reconstruct_itinerary         | Reconstruct Itinerary                             | 332   |
+| top_k_frequent                | Top K Frequent Elements                           | 347   |
+| k_pairs_smallest_sum          | Find K Pairs with Smallest Sums                   | 373   |
 | longest_substr_k_repeats      | Longest Substring with At Least...                | 395   |
+| evaluate_division             | Evaluate Division                                 | 399   |
 | longest_repeat_char_replace   | Longest Repeating Character ...                   | 424   |
 | sliding_window_median         | Sliding Window Median                             | 480   |
 | lpss                          | Longest Palindomic Subsequence                    | 516   |
 | subarray_sum_equal_k          | Subarray Sum Equals K                             | 560   |
 | btree_tilt                    | Binary Tree Tilt                                  | 563   |
 | permute_in_str                | Permutation in String                             | 567   |
+| redundant_connection          | Redundant Connection                              | 689   |
 | subarray_product_less_K       | Subarray Product Less Than K                      | 713   |
 | longest_turb_array            | Longest Turbulent Subarray                        | 978   |
 | subarray_k_diff_int           | Subarrays with K Different Integers               | 992   |
