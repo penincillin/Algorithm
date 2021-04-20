@@ -14,14 +14,12 @@ void print_A(int *A, int head, int tail){
 
 int partition(int* A, int head, int tail){
     int pivot = A[tail]; // chose tail as pivot
-    //int head0=head, tail0=tail;
     while (head < tail){
         while(head < tail & A[head] <= pivot){
             head += 1;
         }
         if (head < tail){
             A[tail] = A[head];
-            A[head] = pivot;
             tail -= 1;
         }
         while(head < tail & A[tail] >= pivot){
@@ -29,10 +27,10 @@ int partition(int* A, int head, int tail){
         }
         if (head < tail){
             A[head] = A[tail];
-            A[tail] = pivot;
             head += 1;
         }
     }
+    A[head] = pivot;
     return head;
 }
 

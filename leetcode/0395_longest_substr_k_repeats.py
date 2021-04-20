@@ -30,7 +30,6 @@ class Solution(object):
                             del record[s[head]]
                         head += 1
                     else:
-                        #print(head, tail, record)
                         tail += 1
                         if tail < N:
                             record[s[tail]] += 1

@@ -22,16 +22,17 @@ public:
         }
         else{
             for(int i=head; i<tail; i++){
+                /*
                 if (i==2 && head==0){
                     cout << "here\n";
                     cout << nums[head] << " " << nums[i] << "\n";
                 }
+                */
                 if (i!=head && nums[head] == nums[i]){
                     continue;
                 }
                 swap(nums[head], nums[i]);
                 solve(res, nums, head+1, tail);
-                //swap(nums[head], nums[i]);
             }
         }
     }

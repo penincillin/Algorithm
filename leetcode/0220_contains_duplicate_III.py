@@ -15,13 +15,10 @@ class Solution(object):
         for i, num in enumerate(nums):
             bucket = num // b_size
             if bucket in record:
-                print("here0")
                 return True
             if bucket-1 in record and num-record[bucket-1] <= t:
-                print("here1")
                 return True
             if bucket+1 in record and record[bucket+1]-num <= t:
-                print("here2")
                 return True
             record[bucket] = num
             if i>=k: 

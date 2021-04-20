@@ -82,6 +82,7 @@
 | restore_IP                    | Restore IP Addresses                              | 93    |
 | btree_inorder_traverse        | Binary Tree Inorder Traversal                     | 94    |
 | unique_bst                    | Unique Binary Search Tree                         | 96    |
+| interleaving_string           | Interleaving String                               | 97    |
 | valid_bst                     | Valid Binary Search Tree                          | 98    |
 | same_tree                     | Same Tree                                         | 100   |
 | symm_tree                     | Symmetric Tree                                    | 101   |
@@ -98,12 +99,25 @@
 | path_sum_II                   | Path Sum II                                       | 113   |
 | btree_to_linked_list          | Flatten Binary Tree to Linked List                | 114   |
 | populate_right_child          | Populating Next Right Pointers in Each Node       | 116   |
-| buy_sell_stock_II             | Best time to buy and sell tock 2                  | 122   |
+| 0117_populate_right_child_II  | Populating Next Right Pointers in Each Node II    | 117   |
+| pascal_triangle               | Pascal's Triangle                                 | 118   |
+| pascal_triangle_II            | Pascal's Triangle II                              | 119   |
+| triangle                      | Triangle                                          | 120   |
+| buy_sell_stock                | Best Time to Buy and Sell Stock                   | 121   |
+| buy_sell_stock_II             | Best time to buy and sell Stock 2                 | 122   |
+| buy_sell_stock_III            | Best Time to Buy and Sell Stock 3                 | 123   |
+| btree_max_path_sum            | Binary Tree Maximum Path Sum                      | 124   |
 | valid_palindrome              | Valid Palindrome                                  | 125   |
+| word_ladder_II                | Word Ladder                                       | 126   |
+| sum_root_to_leaf              | Sum Root to Leaf Numbers                          | 129   |
 | union_find                    | Union Find                                        | 130   |
+| palindrom_part                | Palindrome Partitioning                           | 131   |
+| palindrom_part_II             | Palindrome Partitioning II                        | 132   |
 | gas_station                   | Gas Station                                       | 134   |
 | single_number                 | Single Number                                     | 136   |
 | copy_list_random_pointer      | Copy List with Random Pointer                     | 138   |
+| word_break                    | Word Break                                        | 139   |
+| word_break_II                 | Work Break II                                     | 140   |
 | linked_list_cycle             | Linked List Cycle                                 | 141   |
 | linked_list_cycle_II          | Linked List Cycle II                              | 142   |
 | btree_preorder_traverse       | Binary Tree Preorder Traversal                    | 144   |
@@ -111,34 +125,55 @@
 | lru_cache                     | LRU Cache                                         | 146   |
 | insert_sort_list              | Insertion Sort List                               | 147   |
 | reverse_polish_notation       | Evaluate Reverse Polish Notation                  | 150   |
+| reverse_words                 | Reverse Words in a String                         | 151   |
 | min_in_rotated_**             | Find minimum in rotated sorted array              | 153   |
+| compare_version_numbers       | Compare Version Numbers                           | 165   |
 | frac_to_decimal               | Fraction to Recurring Decimal                     | 166   |
-| excel_column_title            |  Excel Sheet Column Title                         | 168   |
+| excel_column_title            | Excel Sheet Column Title                          | 168   |
 | major_element                 | Majority Element                                  | 169   |
+| excel_sheet_column_number     | Excel Sheet Column Number                         | 171   |
+| factorial_tail_zero           | Factorial Trailing Zeroes                         | 172   |
 | repeat_dna                    | Repeated DNA                                      | 187   |
 | reverse_bits                  | Reverse Bits                                      | 190   |
 | number_of_one_bits            | Number of 1 Bits                                  | 191   |
+| house_robber                  | House Robber                                      | 198   |
+| btree_right_side_view         | Binary Tree Right Side View                       | 199   |
 | num_of_islands                | Number of Islands                                 | 200   |
 | bitwise_and_num_range         | Bitwise AND of Numbers Range                      | 201   |
+| happy_number                  | Happy Number                                      | 202   |
+| count_primes                  | Counte Primes                                     | 204   |
 | RLL                           | Reverse Linked List                               | 206   |
 | course_schedule               | Course Schedule                                   | 207   |
 | trie                          | Implement Trie                                    | 208   |
 | course_schedule_II            | Course Schedule                                   | 210   |
 | add_search_world              | Design Add and Search Words Data Structure        | 211   |
+| house_robber_II               | House Robber II                                   | 213   |
 | contain_duplicates_III        | Contain Duplicates III                            | 220   |
+| count_complete_tree_nodes     | Count Complete Tree Nodes                         | 222   |
+| react_areas                   | Rectangle Area                                    | 223   |
 | basic_calculator              | Basic Calculator                                  | 224   |
 | implement_stack_use_queue     | Implement Stacks Using Queue                      | 225   |
 | basic_calculator_II           | Basic Calculator II                               | 227   |
+| kth_element_bst               | Kth Smallest Element in a BST                     | 230   |
+| power_two                     | Power of Two                                      | 231   |
 | implement_queue_use_stack     | Implement Queue Using Stacks                      | 232   |
+| num_of_digit_one              | Number of Digit One                               | 233   |
+| lowest_ancestor_bst           | Lowest Common Ancestor of a Binary Search Tree    | 235   |
+| lowest_ancestor_btree         | Lowest Common Ancestor of a Binary Tree           | 236   |
 | slide_win_max                 | Sliding Window Maximum                            | 239   |
 | search_2d_matrix_II           | Search a 2D Matrix II                             | 240   |
 | ugly_number_II                | Ugly Number II                                    | 264   |
 | exp_and_op                    | Expression Add Operators                          | 282   |
 | peeking_iterator              | Peeking Iterator                                  | 287   |
 | find_median_data_stream       | Find Median from Data Stream                      | 295   |
+| lis                           | Longest Increasing Subsequence                    | 300   |
+| stock_buy_sell_cooldown       | Best Time to Buy and Sell Stock with Cooldown     | 309   |
 | min_height_tree               | Minimum Height Trees                              | 310   |
 | super_ugly_number             | Super Ugly Number                                 | 313   |
+| remove_dup_letter             | Remove Duplicate Letters                          | 316   |
 | reconstruct_itinerary         | Reconstruct Itinerary                             | 332   |
+| house_robber_III              | House Robber III                                  | 337   |
+| reverse_vowel                 | Reverse Vowels of a String                        | 345   |
 | top_k_frequent                | Top K Frequent Elements                           | 347   |
 | k_pairs_smallest_sum          | Find K Pairs with Smallest Sums                   | 373   |
 | longest_substr_k_repeats      | Longest Substring with At Least...                | 395   |
