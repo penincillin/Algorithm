@@ -27,7 +27,7 @@ def bin_search_right(l, target):
 
 if __name__ == '__main__':
 
-    l = [1,2,3,3,3,4,5]
+    l = [4,5,6,7,0,1,2]
     #l = [5,7,7,8,8,10]
     target = 3 
     

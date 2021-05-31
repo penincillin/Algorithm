@@ -126,7 +126,9 @@
 | insert_sort_list              | Insertion Sort List                               | 147   |
 | reverse_polish_notation       | Evaluate Reverse Polish Notation                  | 150   |
 | reverse_words                 | Reverse Words in a String                         | 151   |
-| min_in_rotated_**             | Find minimum in rotated sorted array              | 153   |
+| min_in_rotated_array          | Find Minimum in Rotated Sorted Array              | 153   |
+| min_in_rotated_array_II       | Find minimum in rotated sorted array II           | 154   |
+| find_peak_element             | Find Peak Element                                 | 162   |
 | compare_version_numbers       | Compare Version Numbers                           | 165   |
 | frac_to_decimal               | Fraction to Recurring Decimal                     | 166   |
 | excel_column_title            | Excel Sheet Column Title                          | 168   |
@@ -162,7 +164,9 @@
 | lowest_ancestor_btree         | Lowest Common Ancestor of a Binary Tree           | 236   |
 | slide_win_max                 | Sliding Window Maximum                            | 239   |
 | search_2d_matrix_II           | Search a 2D Matrix II                             | 240   |
+| btree_path                    | Binary Tree Paths                                 | 257   |
 | ugly_number_II                | Ugly Number II                                    | 264   |
+| h_index                       | H-Index                                           | 274   |
 | exp_and_op                    | Expression Add Operators                          | 282   |
 | peeking_iterator              | Peeking Iterator                                  | 287   |
 | find_median_data_stream       | Find Median from Data Stream                      | 295   |
@@ -171,20 +175,25 @@
 | min_height_tree               | Minimum Height Trees                              | 310   |
 | super_ugly_number             | Super Ugly Number                                 | 313   |
 | remove_dup_letter             | Remove Duplicate Letters                          | 316   |
+| longest_inc_path_matrix       | Longest Increasing Path in a Matrix               | 329   |
 | reconstruct_itinerary         | Reconstruct Itinerary                             | 332   |
 | house_robber_III              | House Robber III                                  | 337   |
 | reverse_vowel                 | Reverse Vowels of a String                        | 345   |
 | top_k_frequent                | Top K Frequent Elements                           | 347   |
 | k_pairs_smallest_sum          | Find K Pairs with Smallest Sums                   | 373   |
+| wiggle_subseq                 | Wiggle Subsequence                                | 376   |
+| is_subseq                     | Is Subsequence                                    | 392   |
+| decode_str                    | Decode String                                     | 394   |
 | longest_substr_k_repeats      | Longest Substring with At Least...                | 395   |
 | evaluate_division             | Evaluate Division                                 | 399   |
+| remove_k_digits               | Remove K Digits                                   | 402   |
 | longest_repeat_char_replace   | Longest Repeating Character ...                   | 424   |
 | sliding_window_median         | Sliding Window Median                             | 480   |
 | lpss                          | Longest Palindomic Subsequence                    | 516   |
 | subarray_sum_equal_k          | Subarray Sum Equals K                             | 560   |
 | btree_tilt                    | Binary Tree Tilt                                  | 563   |
 | permute_in_str                | Permutation in String                             | 567   |
-| redundant_connection          | Redundant Connection                              | 689   |
+| redundant_connection          | Redundant Connection                              | 684   |
 | subarray_product_less_K       | Subarray Product Less Than K                      | 713   |
 | longest_turb_array            | Longest Turbulent Subarray                        | 978   |
 | subarray_k_diff_int           | Subarrays with K Different Integers               | 992   |
