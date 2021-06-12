@@ -7,26 +7,35 @@ The best idea is to use stack, with O(N)
 
 import os, sys, shutil
 
-
 class Solution(object):
     def largestRectangleArea(self, heights):
         return self.solve_03(heights)
-
-
-    def solve_03(self, height):
-        # O(n)
-        height.append(0)
-        stack = [-1]
-        ans = 0
-        for i in range(len(height)):
-            while height[i] < height[stack[-1]]:
-                h = height[stack.pop()]
-                w = i - stack[-1] - 1 # this operation is important, since
-                ans = max(ans, h * w)
-            stack.append(i)
-        height.pop()
-        return ans
     
+    def solve_01(self, heights):
+        # O(n^2)
+        if len(heights) == 0:
+            return 0
+        else:
+            N = len(heights)
+            res = 0
+
+            for i in range(N):
+                left_id, right_id = -1, N
+
+                # left
+                p = i-1
+                while p>=0 and heights[p]>=heights[i]:
+                    p -= 1
+                left_id = p
+
+                # right
+                p = i+1
+                while p<N and heights[p]>=heights[i]:
+                    p += 1
+                right_id = p
+                res = max(res, heights[i] * (right_id - left_id - 1))
+            return res
+
 
     def solve_02(self, heights):
         # better than O(n^2), but might not be the exactly O(n)
@@ -58,31 +67,20 @@ class Solution(object):
             return res
 
 
-    def solve_01(self, heights):
-        # O(n^2)
-        if len(heights) == 0:
-            return 0
-        else:
-            N = len(heights)
-            res = 0
-
-            for i in range(N):
-                left_id, right_id = -1, N
-
-                # left
-                p = i-1
-                while p>=0 and heights[p]>=heights[i]:
-                    p -= 1
-                left_id = p
-
-                # right
-                p = i+1
-                while p<N and heights[p]>=heights[i]:
-                    p += 1
-                right_id = p
-                res = max(res, heights[i] * (right_id - left_id - 1))
-            return res
-
+    def solve_03(self, height):
+        # O(n)
+        height.append(0) # add zero to tail
+        stack = [-1]
+        ans = 0
+        for i in range(len(height)):
+            while height[i] < height[stack[-1]]:
+                h = height[stack.pop()]
+                w = i - stack[-1] - 1 # this operation is important, since
+                ans = max(ans, h * w)
+            stack.append(i)
+        height.pop()
+        return ans
+   
 
 def main():
     sol = Solution()

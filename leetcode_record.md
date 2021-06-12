@@ -37,6 +37,7 @@
 | combine_sum                   | Combine Sum                                       | 39    |
 | combine_sum_two               | Combine Sum Two                                   | 40    |
 | first_missing_interger        | First Missing Interger                            | 41    |
+| trap_rain_water               | Trap Rain Water                                   | 42    |
 | mul_str                       | Multiply Strings                                  | 43    |
 | wildcard_matching             | Wildcard Matching                                 | 44    |
 | jump_game_II                  | Jump Game II                                      | 45    |
@@ -71,10 +72,12 @@
 | min_win_substr                | Minimum Window Substring                          | 76    |
 | combinations                  | Combinations                                      | 77    |
 | subsets                       | Subsets                                           | 78    |
-| largest_rect_hist             | Largest Rectangle Histogram                       | 79    |
+| word_search                   | Word Search                                       | 79    |
 | remove_duplicate_II           | Remove Duplicates from Sorted Array II            | 80    |
 | remove_duplicate_list_II      | Remove Duplicates from Sorted List II             | 82    |
 | remove_dup_sort_list          | Remove Duplicates from Sorted List                | 83    |
+| largest_rect_hist             | Largest Rectangle in Histogram                    | 84    |
+| max_rectangle                 | Maximal Rectangle                                 | 85    |
 | partition_list                | Partition List                                    | 86    |
 | scramble_str                  | Scramble String                                   | 87    |
 | gray_code                     | Gray Code                                         | 89    |
@@ -120,10 +123,12 @@
 | word_break_II                 | Work Break II                                     | 140   |
 | linked_list_cycle             | Linked List Cycle                                 | 141   |
 | linked_list_cycle_II          | Linked List Cycle II                              | 142   |
+| reorder_list                  | Reorder List                                      | 143   |
 | btree_preorder_traverse       | Binary Tree Preorder Traversal                    | 144   |
 | btree_postorder_traverse      | Binary Tree Postorder Traversal                   | 145   |
 | lru_cache                     | LRU Cache                                         | 146   |
 | insert_sort_list              | Insertion Sort List                               | 147   |
+| sort_list                     | Sort List                                         | 148   |
 | reverse_polish_notation       | Evaluate Reverse Polish Notation                  | 150   |
 | reverse_words                 | Reverse Words in a String                         | 151   |
 | min_in_rotated_array          | Find Minimum in Rotated Sorted Array              | 153   |
@@ -149,6 +154,7 @@
 | trie                          | Implement Trie                                    | 208   |
 | course_schedule_II            | Course Schedule                                   | 210   |
 | add_search_world              | Design Add and Search Words Data Structure        | 211   |
+| word_search_II                | Word Search II                                    | 212   |
 | house_robber_II               | House Robber II                                   | 213   |
 | contain_duplicates_III        | Contain Duplicates III                            | 220   |
 | count_complete_tree_nodes     | Count Complete Tree Nodes                         | 222   |
@@ -176,25 +182,36 @@
 | super_ugly_number             | Super Ugly Number                                 | 313   |
 | remove_dup_letter             | Remove Duplicate Letters                          | 316   |
 | longest_inc_path_matrix       | Longest Increasing Path in a Matrix               | 329   |
+| verify_preorder_btree         | Verify Preorder Serialization of a Binary Tree    | 331   |
 | reconstruct_itinerary         | Reconstruct Itinerary                             | 332   |
 | house_robber_III              | House Robber III                                  | 337   |
+| flatten_nest_list             | Flatten Nested List Iterator                      | 341   |
 | reverse_vowel                 | Reverse Vowels of a String                        | 345   |
 | top_k_frequent                | Top K Frequent Elements                           | 347   |
 | k_pairs_smallest_sum          | Find K Pairs with Smallest Sums                   | 373   |
 | wiggle_subseq                 | Wiggle Subsequence                                | 376   |
+| kth_element_sorted_matrix     | Kth Smallest Element in a Sorted Matrix           | 378   |
 | is_subseq                     | Is Subsequence                                    | 392   |
 | decode_str                    | Decode String                                     | 394   |
 | longest_substr_k_repeats      | Longest Substring with At Least...                | 395   |
 | evaluate_division             | Evaluate Division                                 | 399   |
 | remove_k_digits               | Remove K Digits                                   | 402   |
 | longest_repeat_char_replace   | Longest Repeating Character ...                   | 424   |
+| sort_character_by_freq        | Sort Characters By Frequency                      | 451   |
+| 132_pattern                   | 132_pattern                                       | 456   |
+| predict_winner                | Predict the Winner                                | 486   |
 | sliding_window_median         | Sliding Window Median                             | 480   |
 | lpss                          | Longest Palindomic Subsequence                    | 516   |
+| bst_to_greater_tree           | Convert BST to Greater Tree                       | 538   |
 | subarray_sum_equal_k          | Subarray Sum Equals K                             | 560   |
 | btree_tilt                    | Binary Tree Tilt                                  | 563   |
 | permute_in_str                | Permutation in String                             | 567   |
+| trim_bst                      | Trim a Binary Search Tree                         | 669   |
 | redundant_connection          | Redundant Connection                              | 684   |
+| longest_unipath               | Longest Univalue Path                             | 687   |
 | subarray_product_less_K       | Subarray Product Less Than K                      | 713   |
+| account_merge                 | Account Merge                                     | 721   |
+| network_delay                 | Network Delay Time                                | 743   |
 | longest_turb_array            | Longest Turbulent Subarray                        | 978   |
 | subarray_k_diff_int           | Subarrays with K Different Integers               | 992   |
 | max_consec_ones_III           | Max Consecutive Ones III                          | 1004  |
