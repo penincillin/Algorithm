@@ -112,6 +112,7 @@
 | btree_max_path_sum            | Binary Tree Maximum Path Sum                      | 124   |
 | valid_palindrome              | Valid Palindrome                                  | 125   |
 | word_ladder_II                | Word Ladder                                       | 126   |
+| longest_consecutive_seq       | Longest Consecutive Sequence                      | 128   |
 | sum_root_to_leaf              | Sum Root to Leaf Numbers                          | 129   |
 | union_find                    | Union Find                                        | 130   |
 | palindrom_part                | Palindrome Partitioning                           | 131   |
@@ -131,6 +132,7 @@
 | sort_list                     | Sort List                                         | 148   |
 | reverse_polish_notation       | Evaluate Reverse Polish Notation                  | 150   |
 | reverse_words                 | Reverse Words in a String                         | 151   |
+| max_product_subarray          | Maximum Product Subarray                          | 152   |
 | min_in_rotated_array          | Find Minimum in Rotated Sorted Array              | 153   |
 | min_in_rotated_array_II       | Find minimum in rotated sorted array II           | 154   |
 | find_peak_element             | Find Peak Element                                 | 162   |
@@ -156,7 +158,9 @@
 | add_search_world              | Design Add and Search Words Data Structure        | 211   |
 | word_search_II                | Word Search II                                    | 212   |
 | house_robber_II               | House Robber II                                   | 213   |
+| skyline_problem               | The Skyline Problem                               | 218   |
 | contain_duplicates_III        | Contain Duplicates III                            | 220   |
+| max_square                    | Maximal Square                                    | 221   |
 | count_complete_tree_nodes     | Count Complete Tree Nodes                         | 222   |
 | react_areas                   | Rectangle Area                                    | 223   |
 | basic_calculator              | Basic Calculator                                  | 224   |
@@ -170,13 +174,17 @@
 | lowest_ancestor_btree         | Lowest Common Ancestor of a Binary Tree           | 236   |
 | slide_win_max                 | Sliding Window Maximum                            | 239   |
 | search_2d_matrix_II           | Search a 2D Matrix II                             | 240   |
+| add_parentheses               | Different Ways to Add Parentheses                 | 241   |
 | btree_path                    | Binary Tree Paths                                 | 257   |
 | ugly_number_II                | Ugly Number II                                    | 264   |
 | h_index                       | H-Index                                           | 274   |
+| perfect_square                | Perfect Squares                                   | 279   |
 | exp_and_op                    | Expression Add Operators                          | 282   |
 | peeking_iterator              | Peeking Iterator                                  | 287   |
 | find_median_data_stream       | Find Median from Data Stream                      | 295   |
 | lis                           | Longest Increasing Subsequence                    | 300   |
+| range_sum_query               | Range Sum Query - Immutable                       | 303   |
+| range_sum_query_2d            | Range Sum Query 2D - Immutable                    | 304   |
 | stock_buy_sell_cooldown       | Best Time to Buy and Sell Stock with Cooldown     | 309   |
 | min_height_tree               | Minimum Height Trees                              | 310   |
 | super_ugly_number             | Super Ugly Number                                 | 313   |
@@ -191,27 +199,37 @@
 | k_pairs_smallest_sum          | Find K Pairs with Smallest Sums                   | 373   |
 | wiggle_subseq                 | Wiggle Subsequence                                | 376   |
 | kth_element_sorted_matrix     | Kth Smallest Element in a Sorted Matrix           | 378   |
+| lafp                          | Longest Absolute File Path                        | 388   |
 | is_subseq                     | Is Subsequence                                    | 392   |
-| decode_str                    | Decode String                                     | 394   |
+| decode_string                 | Decode String                                     | 394   |
 | longest_substr_k_repeats      | Longest Substring with At Least...                | 395   |
 | evaluate_division             | Evaluate Division                                 | 399   |
 | remove_k_digits               | Remove K Digits                                   | 402   |
 | longest_repeat_char_replace   | Longest Repeating Character ...                   | 424   |
 | sort_character_by_freq        | Sort Characters By Frequency                      | 451   |
 | 132_pattern                   | 132_pattern                                       | 456   |
+| rand10_from_rand7             | Implement Rand10() Using Rand7()                  | 470   |
 | predict_winner                | Predict the Winner                                | 486   |
 | sliding_window_median         | Sliding Window Median                             | 480   |
 | lpss                          | Longest Palindomic Subsequence                    | 516   |
 | bst_to_greater_tree           | Convert BST to Greater Tree                       | 538   |
+| Student Attendance Record I   | student_attend_I                                  | 551   |
 | subarray_sum_equal_k          | Subarray Sum Equals K                             | 560   |
 | btree_tilt                    | Binary Tree Tilt                                  | 563   |
 | permute_in_str                | Permutation in String                             | 567   |
+| valid_square                  | Valid Square                                      | 593   |
 | trim_bst                      | Trim a Binary Search Tree                         | 669   |
 | redundant_connection          | Redundant Connection                              | 684   |
 | longest_unipath               | Longest Univalue Path                             | 687   |
+| employee_importance           | Employee Importance                               | 690   |
 | subarray_product_less_K       | Subarray Product Less Than K                      | 713   |
 | account_merge                 | Account Merge                                     | 721   |
+| asteroid                      | Asteroid Collision                                | 735   |
 | network_delay                 | Network Delay Time                                | 743   |
+| prefix_suffix_search          | Prefix and Suffix Search                          | 745   |
+| num_match_subseq              | Number of Matching Subsequences                   | 792   |
+| brick_hit                     | Bricks Falling When Hit                           | 803   |
+| find_replace_str              | Find And Replace in String                        | 833   |
 | longest_turb_array            | Longest Turbulent Subarray                        | 978   |
 | subarray_k_diff_int           | Subarrays with K Different Integers               | 992   |
 | max_consec_ones_III           | Max Consecutive Ones III                          | 1004  |

@@ -2,6 +2,9 @@
 Min Stack, https://leetcode.com/problems/min-stack/
 Refer to https://leetcode.com/problems/min-stack/discuss/1007532/Two-stacks-wvideo-whiteboard-explanation for explanation.
 The key idea is to keep two stacks, one stack is the normal stack, the other stack only push the monotonically decreasing elements.
+
+Another idea is illustrated here:https://leetcode.com/problems/min-stack/discuss/49010/Clean-6ms-Java-solution.
+The idea is to keep track of the current min values.
 """
 
 import os, sys, shutil

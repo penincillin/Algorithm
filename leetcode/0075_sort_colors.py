@@ -1,6 +1,7 @@
 """
 Sort Colors, https://leetcode.com/problems/sort-colors/
 This code share the same spirit as quit sort, pivoting
+The intuition is to move 0 to left and 2 to right, while keeping 1 at the current position (temporary)
 """
 
 from collections import defaultdict

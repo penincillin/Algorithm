@@ -23,6 +23,7 @@ class Solution(object):
                 end = mid
         return False
 
+
     def solve_01(self, matrix, target):
         # the time complexity if n * log(m)
         # do bin_search row by row

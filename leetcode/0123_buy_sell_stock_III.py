@@ -34,14 +34,14 @@ class Solution(object):
         if N <= 1:
             return 0
         else:
-            dp = [[0 for _ in range(N)] for _ in range(3)] # [3, N]
+            dp = [[0 for _ in range(N)] for _ in range(3)] # 3 * N; 3 stands for 0 transaction, 1 transaction, and 2 transaction
             for k in range(1, 3):
                 for i in range(1, N):
                     min_value = float('inf')
                     for j in range(i):
                         # it's easy to find that this operation is repeated as i increasing,
                         # therefore, this for loop (for j) can be removed and obtain algorithm above
-                        min_value = min(min_value, prices[j]-dp[k-1][j]) 
+                        min_value = min(min_value, prices[j]-dp[k-1][j]) # -dp[k-1][j] is hard to understand, actually it is dp[k][i] = prices[i]-prices[j] + dp[k-1][j]
                     dp[k][i] = max(dp[k][i-1], prices[i]-min_value)
             return dp[2][N-1]
 
