@@ -18,18 +18,25 @@ def bin_search_right(l, target):
     start, end = 0, len(l)
     while start<end: 
         mid = (start+end)//2
-        if target < l[mid]:
-            end = mid
-        else:
+        if l[mid] <= target:
             start = mid+1
+        else:
+            end = mid
     return start
 
 
-if __name__ == '__main__':
-
-    l = [4,5,6,7,0,1,2]
+def main():
+    # l = [4,5,6,7,0,1,2]
     #l = [5,7,7,8,8,10]
+    l = [1, 2, 3, 3, 3, 3, 3, 4]
     target = 3 
     
     idx = bin_search_left(l, target)
     print(idx, l[idx])
+
+    idx = bin_search_right(l, target)
+    print(idx, l[idx])
+
+
+if __name__ == '__main__':
+    main()

@@ -230,8 +230,15 @@
 | num_match_subseq              | Number of Matching Subsequences                   | 792   |
 | brick_hit                     | Bricks Falling When Hit                           | 803   |
 | find_replace_str              | Find And Replace in String                        | 833   |
+| guess_word                    | Guess the Word                                    | 843   |
+| car_fleet                     | Car Fleet                                         | 853   |
+| min_refuel                    | Minimum Number of Refueling Stops                 | 871   |
+| rle_iter                      | RLE Iterator                                      | 900   |
+| array_double_pair             | Array of Doubled Pairs                            | 954   |
 | longest_turb_array            | Longest Turbulent Subarray                        | 978   |
+| time_key_value                | Time Based Key-Value Store                        | 981   |
 | subarray_k_diff_int           | Subarrays with K Different Integers               | 992   |
 | max_consec_ones_III           | Max Consecutive Ones III                          | 1004  |
+| longest_string_chain          | Longest String Chain                              | 1048  |
 | lcs                           | Longeset Common substring                         | 1143  |
 | front_mid_back_queue          | Design Front Middle Back Queue                    | 1670  |
